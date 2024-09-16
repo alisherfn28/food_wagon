@@ -78,8 +78,161 @@
     background-color: #ffffff;
     padding: 10px 20px;
     margin-left: 30px;
+    transition: 0.3s;
     -webkit-box-shadow: 6px 18px 24px -11px rgba(255, 179, 14, 1);
     -moz-box-shadow: 6px 18px 24px -11px rgba(255, 179, 14, 1);
     box-shadow: 6px 18px 24px -11px rgba(255, 179, 14, 1);
+    &:active {
+      transform: scale(0.8);
+    }
+    &:hover {
+      i {
+        color: #fff;
+      }
+      background-color: #f9b82d;
+      color: #ffffff;
+    }
   }
+}
+
+.starving1 {
+  background-color: #fdc818;
+}
+
+.starving {
+  display: flex;
+  align-items: center;
+}
+
+.starving-title {
+  h1 {
+    font-family: Source Sans Pro;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+    color: #ffffff;
+  }
+  p {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: #504f4f;
+  }
+}
+
+.message {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn1 button {
+  background-color: #f172281a;
+  border: none;
+  color: #f17228;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 24px 24px;
+  transition: 0.5s;
+  i {
+    padding-right: 5px;
+  }
+  &:active {
+    transform: scale(0.8);
+  }
+  &:hover {
+    background-color: #ff8a46;
+    color: #ffffff;
+    i {
+      color: #ffffff;
+    }
+  }
+}
+
+.message_button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgb(195, 188, 188);
+}
+
+.btn2 button {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #757575;
+  border: none;
+  i {
+    padding-right: 5px;
+  }
+}
+
+.message_email {
+  border: none;
+  padding: 11px 10px;
+  i {
+    color: #ff7474;
+    padding-right: 5px;
+  }
+  button {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 15px 20px;
+    background-color: rgb(229, 73, 73);
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+    i {
+      padding-right: 5px;
+      color: #ffffff;
+    }
+    &:hover {
+      background-color: #f17228;
+    }
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+}
+
+.card_title h3 {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: #424242;
+  padding-top: 10px;
+}
+
+.card_title button {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  padding-right: 10px;
+  color: #f17228;
+  border: none;
+  background-color: #f1722833;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card {
+  border: none;
+}
+
+.food_card {
+  display: flex;
+  border: none;
+  align-items: center;
+  column-gap: 100px;
+  margin-top: 50px;
 }
