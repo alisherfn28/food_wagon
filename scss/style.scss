@@ -229,10 +229,15 @@
   border: none;
 }
 
+.card_img img {
+  width: 300px;
+}
+
 .food_card {
   display: flex;
   border: none;
   align-items: center;
   column-gap: 100px;
   margin-top: 50px;
+  margin-right: 100px;
 }
